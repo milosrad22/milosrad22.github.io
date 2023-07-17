@@ -1,0 +1,31 @@
+@charset "utf-8";
+body {
+}
+#formWrapper #survey #custInfo {
+	color: #F2E3E3;
+	font-family: Poppins, "Poppins Thin", sans-serif, serif;
+	font-style: normal;
+	font-weight: normal;
+	max-width: 500px;
+	display: block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	float: none;
+}
+
+
+
+@media only screen and (min-width:481px){
+.img_float {
+	float: left;
+}
+
+}
+
+@media only screen and (min-width:769px){
+.img_float {
+	float: left;
+}
+
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="">
+<!-- MILOS RADOJKOVIC, CTI110.0001-->
+<!--I created this page after uploading the initial broweser page looks main, about me and contact me-->
+<head>
+<link rel="shortcut icon" href="cloud.ico" type="image/x-icon">
+<title>Contact me</title>
+<meta name="keywords" content="contact me, telephone, email, calendly, meeting">
+<meta name="description" content="contact info, contact me">
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div> <img src="assets/images/cloud_free_logo_1400625045.png" alt="Cloud Contact Me" width="198" height="200" title="Cloud Contact Me" class="img_float"> </div>
+  <div><h1 class="intro_paragraph"><strong><a href="index.html">Home</a></strong><strong> <a href="about_me.html"> About me</a>  <a href="contact_me2.html" class="intro_paragraph">Contact me</a> <a href="Extras.html" class="intro_paragraph">Extras</a> </strong></h1></div>
+  <h1>&nbsp;</h1>
+  <h1>&nbsp;</h1>
+  <h1>Let's talk</h1>
+  <h4 class="intro_paragraph">Milos Radojkovic<br>
+cell: 919 282 4000</h4>
+<h4><span class="intro_paragraph"><a href="mailto:mradojkovic@my.waketech.edu">Email me</a>
+    <!--Add links to below elements-->
+  </span>
+</h4>
+  <h2 class="intro_paragraph">website:&nbsp;<a href="https://hermes.waketech.edu/~mradojkovic/index.html" class="intro_paragraph">https://hermes.waketech.edu/~mradojkovic/index.html</a></h2>
+  <h4 class="intro_paragraph">Social media: </h4>
+<h4 class="intro_paragraph">LinkedIn:</h4>
+<div id="formWrapper">
+ 	  <h1>Contact Form</h1>
+<h4>Required values are marked by an asterisk (*)</h4>
+<form id="survey" action="https://hermes.waketech.edu/~mradojkovic/survey" method="post">
+  <fieldset id="custInfo">
+      <div class="formRow">
+      <label for="fname">First name*</label>
+      <input name="visFirstName" id="fname" type="text" placeholder="First name" required>
+    </div>
+
+    <div class="formRow">
+    <label for="lname">Last name*</label>
+    <input name="visLastName" id="lname" type="text" placeholder="Last name" required>
+    </div>
+
+    <div class="formRow">
+    <label for="mail">E-mail*</label>
+    <input name="visEmail" id="mail" type="email" placeholder="E-mail" required>
+    </div>
+
+    <div class="formRow">
+    <label for="phone">Phone number*</label>
+    <input name="visPhone" id="phone" type="tel" placeholder="Cell" required>
+    </div>
+
+    <div class="formRow">
+    <label for="callBack">Request a call back*</label>
+      <select name="option" id="callBack">
+        <option value="YES" selected>Yes</option>
+        <option value="NO">No</option>
+      </select>
+    </div>
+
+    <div class="formRow">
+    <label for="news">Subscribe to my newsletter*</label>
+	<input id="news">
+      <fieldset class="optGroup">
+        <label for="fYes">Yes</label>
+        <input name="sNews" id="fYes" value="yes" type="radio">
+        <label for="fNo">No</label>
+        <input name="sNews" id="fNo" value="no" type="radio">
+      </fieldset>
+    </div>
+
+    <label for="commBox"> Please write your message here:</label>
+    <textarea name="txtBox" id="commBox"></textarea>
+    
+  </fieldset>
+
+  <div id="buttons">
+    <input type="submit" value="Submit">
+  </div>
+
+  </form>
+
+</div>
+	
+</body>
+	
+</html>
+
+
